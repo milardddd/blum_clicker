@@ -49,7 +49,7 @@ This project is created for educational purposes only. The author is not respons
 
 ## 🤝 Contact
 
-Author: [milardddd](https://www.google.com/search?q=https://github.com/milardddd)
+Author: [milardddd](https://github.com/milardddd)
 
 ```
 
