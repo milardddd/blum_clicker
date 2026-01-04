@@ -1,4 +1,3 @@
-```markdown
 # 🌸 Blum Clicker Bot
 
 ![GitHub stars](https://img.shields.io/github/stars/milardddd/blum_clicker?style=social)
@@ -26,8 +25,6 @@
    ```bash
    git clone [https://github.com/milardddd/blum_clicker.git](https://github.com/milardddd/blum_clicker.git)
    cd blum_clicker
-
-```
 
 2. **Встановіть необхідні модулі:**
 ```bash
