@@ -4,58 +4,52 @@
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Простий та ефективний автоклікер для гри **Blum** у Telegram. Скрипт автоматизує процес збору зірок, що дозволяє отримувати максимум балів без зайвих зусиль.
+A simple and efficient auto-clicker for the **Blum** game on Telegram. This script automates the star collection process, allowing you to get maximum points with minimal effort.
 
 ---
 
-## 🚀 Функції
-* **Автоматичний клік:** Точне натискання на об'єкти в грі.
-* **Визначення кольорів:** Алгоритм фокусується на елементах гри, ігноруючи фон.
-* **Швидка робота:** Оптимізовано для мінімальної затримки.
-* **Просте керування:** Запуск однією командою.
+## 🚀 Features
+* **Auto-Clicking:** Precise clicking on in-game objects.
+* **Color Detection:** The algorithm focuses on specific game elements while ignoring the background.
+* **High Performance:** Optimized for minimal latency and fast response.
+* **Simple Control:** Easy to set up and launch with a single command.
 
-## 📸 Демонстрація
+## 📸 Demo
 <p align="center">
   <img src="media/demo.gif" alt="Blum Clicker Demo" width="400">
 </p>
 
-## 🛠 Інсталяція
+## 🛠 Installation
 
-1. **Клонуйте репозиторій:**
+1. **Clone the repository:**
    ```bash
    git clone [https://github.com/milardddd/blum_clicker.git](https://github.com/milardddd/blum_clicker.git)
    cd blum_clicker
 
-2. **Встановіть необхідні модулі:**
-```bash
-pip install pyautogui keyboard opencv-python numpy Pillow
-
-```
 
 
+## 📖 How to Use
 
-## 📖 Як користуватися
-
-1. Запустіть **Telegram Desktop** та відкрийте бота **Blum**.
-2. Запустіть скрипт:
+1. Launch **Telegram Desktop** and open the **Blum** bot.
+2. Run the script:
 ```bash
 python clicker.py
 
 ```
 
 
-3. Перейдіть у вікно з грою.
-4. Щоб зупинити роботу скрипта, натисніть клавішу `Q` або `Ctrl+C` у терміналі.
+3. Switch to the game window.
+4. To stop the script, press the `Q` key (if configured in code) or `Ctrl+C` in the terminal.
 
-## ⚠️ Відмова від відповідальності (Disclaimer)
+## ⚠️ Disclaimer
 
-Цей проєкт створений виключно в навчальних цілях. Автор не несе відповідальності за блокування акаунтів або інші санкції з боку розробників гри. Використовуйте на власний ризик.
+This project is created for educational purposes only. The author is not responsible for any account bans or other sanctions from the game developers. Use it at your own risk.
 
 ---
 
-## 🤝 Контакти
+## 🤝 Contact
 
-Автор: [milardddd](https://www.google.com/search?q=https://github.com/milardddd)
+Author: [milardddd](https://www.google.com/search?q=https://github.com/milardddd)
 
 ```
 
