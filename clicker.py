@@ -64,7 +64,7 @@ def click_targets(target_contours, bomb_contours, offset_x, offset_y):
 
 def is_within(contour1, contour2):
     for point in contour1:
-        pt = (int(point[0][0]), int(point[0][1]))  # Убедитесь, что точки имеют правильный формат
+        pt = (int(point[0][0]), int(point[0][1]))  
         if cv2.pointPolygonTest(contour2, pt, False) >= 0:
             return True
     return False
@@ -106,7 +106,7 @@ def main():
         if keyb.is_pressed('1') and not running:
             print(f"{get_message_prefix()}Нажата клавиша '1'. Запуск скрипта...")
             running = True
-            status_printed = False  # Сброс флага при запуске
+            status_printed = False  
 
         if keyb.is_pressed('2') and running:
             print(f"{get_message_prefix()}Нажата клавиша '2'. Остановка скрипта.")
@@ -118,7 +118,6 @@ def main():
                 print(f"{get_message_prefix()}Не удалось захватить изображение.")
                 continue
 
-            # Проверяем наличие кнопки Play
             max_val, max_loc = detect_button(image, play_button_template)
             threshold = 0.8
             if max_val >= threshold:
@@ -128,9 +127,8 @@ def main():
                 button_center_y = button_y + play_button_template.shape[0] // 2
                 pyautogui.click(button_center_x, button_center_y, interval=0.001)
                 print(f"{get_message_prefix()}Кнопка Play была нажата.")
-                continue  # Пропускаем основной код, если кнопка была найдена и нажата
+                continue 
 
-            # Проверяем наличие кнопки Continue
             max_val, max_loc = detect_button(image, continue_button_template)
             if max_val >= threshold:
                 button_x = max_loc[0] + offset_x
@@ -139,9 +137,8 @@ def main():
                 button_center_y = button_y + continue_button_template.shape[0] // 2
                 pyautogui.click(button_center_x, button_center_y, interval=0.001)
                 print(f"{get_message_prefix()}Код работает...")
-                continue  # Пропускаем основной код, если кнопка была найдена и нажата
+                continue  
 
-            # Обнаруживаем мишени и бомбочки
             target_contours = detect_targets(image, target_lower_color, target_upper_color)
             bomb_contours = detect_bombs(image, bomb_lower_color, bomb_upper_color)
             
@@ -153,3 +150,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
