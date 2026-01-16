@@ -25,6 +25,10 @@ A simple and efficient auto-clicker for the **Blum** game on Telegram. This scri
    ```bash
    git clone https://github.com/milardddd/blum_clicker.git
    cd blum_clicker
+   
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
 
 ## 📖 How to Use
 
