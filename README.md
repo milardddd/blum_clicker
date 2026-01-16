@@ -27,7 +27,6 @@ A simple and efficient auto-clicker for the **Blum** game on Telegram. This scri
    cd blum_clicker
 
 
-
 ## 📖 How to Use
 
 1. Launch **Telegram Desktop** and open the **Blum** bot.
