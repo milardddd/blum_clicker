@@ -23,7 +23,7 @@ A simple and efficient auto-clicker for the **Blum** game on Telegram. This scri
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/milardddd/blum_clicker.git](https://github.com/milardddd/blum_clicker.git)
+   git clone https://github.com/milardddd/blum_clicker.git
    cd blum_clicker
 
 
@@ -39,7 +39,8 @@ python clicker.py
 
 
 3. Switch to the game window.
-4. To stop the script, press the `Q` key (if configured in code) or `Ctrl+C` in the terminal.
+4. To start the script, press `1`.
+5. To stop the script, press `2` or `Ctrl+C` in the terminal.
 
 ## ⚠️ Disclaimer
 
