@@ -49,7 +49,3 @@ This project is created for educational purposes only. The author is not respons
 ## 🤝 Contact
 
 Author: [milardddd](https://github.com/milardddd)
-
-```
-
-```
