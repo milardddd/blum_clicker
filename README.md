@@ -19,6 +19,11 @@ A simple and efficient auto-clicker for the **Blum** game on Telegram. This scri
   <img src="media/demo.gif" alt="Blum Clicker Demo" width="400">
 </p>
 
+## 🛠 Tech Stack & Workflow
+* **Tech Stack:** Python, OpenCV (Image processing), PyAutoGUI (Automation).
+* **Prototyping:** Used AI-driven development (ChatGPT/Cursor) to rapidly iterate on logic and computer vision algorithms.
+* **Testing:** Manually verified color detection accuracy (HSV ranges) and click coordinates to ensure reliable performance.
+
 ## 🛠 Installation
 
 1. **Clone the repository:**
